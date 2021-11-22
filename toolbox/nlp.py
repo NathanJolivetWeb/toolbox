@@ -1,3 +1,8 @@
+import nltk
+
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 import string
 from nltk.corpus import stopwords
